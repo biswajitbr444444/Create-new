@@ -1,0 +1,1 @@
+<?php require __DIR__."/../bootstrap.php";require_login();json_response(["ok"=>true]); ?>

@@ -1,0 +1,31 @@
+<?php
+require __DIR__.'/../../../bootstrap.php';
+require_super_admin();
+header('Cache-Control: no-store');
+$action=(string)getv('action','bootstrap');
+if($_SERVER['REQUEST_METHOD']==='POST') verify_csrf();
+if($action==='bootstrap'){
+    $a=visual_active();
+    json_response(['ok'=>true,'version'=>$a['version'],'version_id'=>$a['version_id'],'config'=>$a['config'],'policy'=>['enabled'=>policy_flag('visual_editor',true),'custom_js'=>policy_flag('visual_custom_js',false)]]);
+}
+if($action==='draft'){
+    $raw=file_get_contents('php://input'); $body=json_decode($raw,true); if(!is_array($body))$body=$_POST;
+    $cfg=$body['config']??null;if(!is_array($cfg))json_response(['ok'=>false,'error'=>'Missing config.'],422);$cfg=visual_validate_config($cfg);
+    $sid=hash('sha256',(string)($_SESSION['visual_session']??=bin2hex(random_bytes(24))));$a=visual_active();
+    db()->prepare('INSERT INTO visual_drafts(tenant_id,user_id,base_version_id,session_key,configuration_json,updated_at,created_at) VALUES(?,?,?,?,?,NOW(),NOW()) ON DUPLICATE KEY UPDATE configuration_json=VALUES(configuration_json),base_version_id=VALUES(base_version_id),updated_at=NOW()')->execute([visual_tenant_id(),(int)current_user()['id'],$a['version_id'],$sid,json_encode($cfg,JSON_UNESCAPED_SLASHES|JSON_UNESCAPED_UNICODE)]);
+    json_response(['ok'=>true,'hash'=>visual_hash($cfg)]);
+}
+if($action==='publish'){
+    $body=json_decode(file_get_contents('php://input'),true);if(!is_array($body))json_response(['ok'=>false,'error'=>'Invalid JSON.'],422);$cfg=$body['config']??null;if(!is_array($cfg))json_response(['ok'=>false,'error'=>'Missing config.'],422);$cfg=visual_validate_config($cfg);$a=visual_active();$base=(int)($body['base_version']??$a['version']);if($base!==$a['version'])json_response(['ok'=>false,'conflict'=>true,'error'=>'The live version changed. Review and merge before publishing.','live_version'=>$a['version']],409);
+    $pdo=db();$pdo->beginTransaction();try{$n=(int)$pdo->query('SELECT COALESCE(MAX(version_number),0)+1 FROM visual_versions WHERE tenant_id='.visual_tenant_id())->fetchColumn();$hash=visual_hash($cfg);$pdo->prepare('INSERT INTO visual_versions(version_number,tenant_id,parent_id,author_id,status,configuration_json,configuration_hash,description,created_at,published_at) VALUES(?,?,?,?,?,?,?,?,NOW(),NOW())')->execute([$n,visual_tenant_id(),$a['version_id'],(int)current_user()['id'],'published',json_encode($cfg,JSON_UNESCAPED_SLASHES|JSON_UNESCAPED_UNICODE),$hash,trim((string)($body['description']??'Visual update'))]);$vid=(int)$pdo->lastInsertId();$pdo->prepare('UPDATE visual_versions SET status=\'rolled_back\' WHERE tenant_id=? AND status=\'published\' AND id<>?')->execute([visual_tenant_id(),$vid]);$pdo->prepare('DELETE FROM visual_drafts WHERE tenant_id=? AND user_id=?')->execute([visual_tenant_id(),(int)current_user()['id']]);$pdo->commit();visual_audit('VISUAL_PUBLISHED',$vid);json_response(['ok'=>true,'version'=>$n,'version_id'=>$vid,'hash'=>$hash,'invalidate'=>true]);}catch(Throwable $e){if($pdo->inTransaction())$pdo->rollBack();json_response(['ok'=>false,'error'=>'Publish failed.'],500);}
+}
+if($action==='versions'){
+ $s=db()->prepare('SELECT id,version_number,parent_id,status,description,configuration_hash,created_at,published_at,scheduled_at FROM visual_versions WHERE tenant_id=? ORDER BY version_number DESC LIMIT 50');$s->execute([visual_tenant_id()]);json_response(['ok'=>true,'versions'=>$s->fetchAll()]);
+}
+if($action==='rollback'){
+ $id=(int)getv('version_id',0);$s=db()->prepare('SELECT configuration_json,version_number FROM visual_versions WHERE id=? AND tenant_id=?');$s->execute([$id,visual_tenant_id()]);$r=$s->fetch();if(!$r)json_response(['ok'=>false,'error'=>'Version not found.'],404);$cfg=visual_validate_config(json_decode((string)$r['configuration_json'],true)?:[]);$a=visual_active();$pdo=db();$pdo->beginTransaction();try{$n=(int)$pdo->query('SELECT COALESCE(MAX(version_number),0)+1 FROM visual_versions WHERE tenant_id='.visual_tenant_id())->fetchColumn();$pdo->prepare('INSERT INTO visual_versions(version_number,tenant_id,parent_id,author_id,status,configuration_json,configuration_hash,description,created_at,published_at) VALUES(?,?,?,?,?,?,?,?,NOW(),NOW())')->execute([$n,visual_tenant_id(),$a['version_id'],(int)current_user()['id'],'published',json_encode($cfg,JSON_UNESCAPED_SLASHES|JSON_UNESCAPED_UNICODE),visual_hash($cfg),'Rollback to v'.(int)$r['version_number']]);$vid=(int)$pdo->lastInsertId();$pdo->prepare('UPDATE visual_versions SET status=\'rolled_back\' WHERE tenant_id=? AND status=\'published\' AND id<>?')->execute([visual_tenant_id(),$vid]);$pdo->commit();visual_audit('VISUAL_ROLLBACK',$vid);json_response(['ok'=>true,'version'=>$n,'version_id'=>$vid,'invalidate'=>true]);}catch(Throwable $e){if($pdo->inTransaction())$pdo->rollBack();json_response(['ok'=>false,'error'=>'Rollback failed.'],500);}
+}
+if($action==='schedule'){
+ $body=json_decode(file_get_contents('php://input'),true);$run=trim((string)($body['run_at']??''));$cfg=$body['config']??null;$a=visual_active();if(!$run||!$cfg||strtotime($run)<=time())json_response(['ok'=>false,'error'=>'Choose a future UTC time.'],422);$cfg=visual_validate_config($cfg);$pdo=db();$n=(int)$pdo->query('SELECT COALESCE(MAX(version_number),0)+1 FROM visual_versions WHERE tenant_id='.visual_tenant_id())->fetchColumn();$pdo->prepare('INSERT INTO visual_versions(version_number,tenant_id,parent_id,author_id,status,configuration_json,configuration_hash,description,scheduled_at,created_at) VALUES(?,?,?,?,?,?,?,?,?,NOW())')->execute([$n,visual_tenant_id(),$a['version_id'],(int)current_user()['id'],'scheduled',json_encode($cfg,JSON_UNESCAPED_SLASHES|JSON_UNESCAPED_UNICODE),visual_hash($cfg),'Scheduled visual release',date('Y-m-d H:i:s',strtotime($run))]);$vid=(int)$pdo->lastInsertId();$pdo->prepare('INSERT INTO visual_schedules(tenant_id,version_id,run_at,created_by,created_at) VALUES(?,?,?,?,NOW())')->execute([visual_tenant_id(),$vid,date('Y-m-d H:i:s',strtotime($run)),(int)current_user()['id']]);visual_audit('VISUAL_RELEASE_SCHEDULED',$vid);json_response(['ok'=>true,'version'=>$n,'version_id'=>$vid]);
+}
+json_response(['ok'=>false,'error'=>'Unknown action.'],404);

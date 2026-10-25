@@ -1,0 +1,91 @@
+/* PocketCat Media Library V19.4 — responsive layout and interaction polish */
+.media-library-head{display:flex;align-items:flex-start;justify-content:space-between;gap:18px;flex-wrap:wrap}
+.media-library-head>div:first-child{min-width:0;flex:1 1 260px}
+.media-head-actions{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.media-stats{grid-template-columns:repeat(4,minmax(0,1fr))}
+.media-toolbar,.media-folder-share-select,.media-folder-manager,.media-bulkbar{min-width:0;max-width:100%}
+.media-filter-form{grid-template-columns:minmax(190px,2fr) repeat(4,minmax(110px,1fr)) auto auto;gap:10px}
+.media-filter-form label,.media-filter-form input,.media-filter-form select{min-width:0;width:100%;max-width:100%}
+.media-category-tabs,.media-folder-bar{display:flex;align-items:center;gap:8px;flex-wrap:wrap;min-width:0;margin-top:14px}
+.media-category-tabs .btn,.media-folder-bar .btn{max-width:100%;white-space:normal;overflow-wrap:anywhere}
+.media-folder-share-options{display:flex;gap:9px;flex-wrap:wrap;margin-top:12px}
+.media-folder-share-options label{display:inline-flex;align-items:center;gap:7px;max-width:100%;padding:9px 12px;border:1px solid var(--line);border-radius:10px;overflow-wrap:anywhere}
+#media-upload{grid-template-columns:repeat(2,minmax(0,1fr));align-items:stretch;gap:16px}
+#media-upload>.form-card{min-width:0;width:100%;max-width:100%}
+#media-upload label{min-width:0}
+#media-upload input,#media-upload select,#media-upload textarea{width:100%;min-width:0;max-width:100%}
+.media-drop{line-height:1.5;overflow-wrap:anywhere}
+.media-bulkbar{display:flex;align-items:center;gap:9px;flex-wrap:wrap;padding:14px}
+.media-bulkbar>*{min-width:0;max-width:100%}
+.media-bulkbar select{width:auto;flex:0 1 180px}
+.media-bulkbar .small-text,#mediaBulkStatus{flex:1 1 180px;overflow-wrap:anywhere}
+.media-grid{grid-template-columns:repeat(auto-fill,minmax(min(100%,250px),1fr));align-items:stretch;min-width:0;gap:16px}
+.media-card{min-width:0;width:100%;max-width:100%;overflow:hidden;align-content:start;grid-template-columns:minmax(0,1fr)}
+.media-card-body{min-width:0;width:100%;max-width:100%}
+.media-title-row{min-width:0;align-items:flex-start}
+.media-title-row strong{white-space:normal;overflow-wrap:anywhere;word-break:break-word;line-height:1.4}
+.media-title-row .asset-menu,.media-title-row form{flex:0 0 auto}
+.media-card small{overflow-wrap:anywhere;word-break:break-word;line-height:1.45}
+.media-preview{width:100%;min-width:0;max-width:100%;height:clamp(150px,22vw,220px)}
+.media-preview img,.media-preview video{max-width:100%;min-width:0}
+.media-actions{min-width:0;align-items:stretch}
+.media-actions .edit-btn,.media-actions a,.media-actions button{min-width:0;max-width:100%;white-space:normal;overflow-wrap:anywhere;text-align:center;line-height:1.35}
+.asset-menu-pop{max-width:min(240px,calc(100vw - 48px));overflow-wrap:anywhere;z-index:20}
+.media-list-view .media-card{grid-template-columns:26px minmax(76px,120px) minmax(0,1fr);align-items:start;overflow:hidden}
+.media-list-view .media-card-body{min-width:0}
+.media-list-view .media-title-row strong{overflow-wrap:anywhere;word-break:break-word}
+.media-list-view .media-actions{min-width:0}
+.media-list-view .media-edit{grid-column:2/-1;min-width:0}
+.media-edit form{min-width:0}
+.media-edit input,.media-edit select,.media-edit textarea{width:100%;min-width:0;max-width:100%}
+.media-v182-tools{min-width:0;max-width:100%}
+.v182-colors{min-width:0}
+.media-modal-dialog{max-width:min(1000px,calc(100vw - 24px));min-width:0}
+@media(max-width:1000px){
+ .media-filter-form{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .media-filter-form label:first-child{grid-column:1/-1}
+ .media-filter-form .btn{width:100%}
+ #media-upload{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .media-bulkbar select{flex:1 1 150px}
+}
+@media(max-width:640px){
+ .media-library-head{gap:12px}
+ .media-head-actions{width:100%;display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}
+ .media-head-actions .btn{min-width:0;white-space:normal;text-align:center}
+ .media-stats{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}
+ .media-stats .card{min-width:0;padding:13px}
+ .media-filter-form{grid-template-columns:minmax(0,1fr)}
+ .media-filter-form label:first-child{grid-column:auto}
+ .media-category-tabs,.media-folder-bar{gap:6px}
+ .media-category-tabs .btn,.media-folder-bar .btn{flex:0 1 auto;padding:8px 10px;font-size:12px}
+ .media-view-toggle{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+ .media-view-toggle .muted{grid-column:1/-1}
+ #media-upload{grid-template-columns:minmax(0,1fr)}
+ .media-bulkbar{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;padding:12px}
+ .media-bulkbar>*{width:100%;min-width:0;max-width:100%;flex:auto}
+ .media-bulkbar .select-all,.media-bulkbar #mediaSelectedCount,.media-bulkbar #mediaBulkStatus{grid-column:1/-1}
+ .media-bulkbar select{width:100%;min-width:0}
+ .media-grid{grid-template-columns:minmax(0,1fr);gap:12px}
+ .media-card{padding:12px;border-radius:14px}
+ .media-preview{height:210px}
+ .media-actions .edit-btn,.media-actions a,.media-actions button{flex:1 1 calc(50% - 7px)}
+ .media-list-view .media-card{display:grid;grid-template-columns:24px minmax(72px,92px) minmax(0,1fr);gap:9px;padding:12px;padding-top:12px}
+ .media-list-view .media-select{position:static;grid-column:1;grid-row:1}
+ .media-list-view .media-preview{grid-column:2;grid-row:1;height:86px;margin:0}
+ .media-list-view .media-card-body{grid-column:3;grid-row:1;min-width:0}
+ .media-list-view .media-title-row{flex-wrap:wrap}
+ .media-list-view .media-title-row strong{flex:1 1 100%}
+ .media-list-view .media-actions .edit-btn,.media-list-view .media-actions a,.media-list-view .media-actions button{flex:1 1 100%}
+ .media-list-view .media-edit{grid-column:1/-1}
+ .media-folder-manager summary{align-items:flex-start;flex-direction:column}
+ .media-v182-palettes{grid-template-columns:minmax(0,1fr)}
+ .media-v182-head{min-width:0}
+ .media-v182-head>div{min-width:0}
+}
+@media(max-width:360px){
+ .media-stats{grid-template-columns:minmax(0,1fr)}
+ .media-bulkbar{grid-template-columns:minmax(0,1fr)}
+ .media-bulkbar .select-all,.media-bulkbar #mediaSelectedCount,.media-bulkbar #mediaBulkStatus{grid-column:auto}
+ .media-list-view .media-card{grid-template-columns:20px minmax(0,70px) minmax(0,1fr);gap:7px}
+ .media-list-view .media-preview{height:70px}
+}

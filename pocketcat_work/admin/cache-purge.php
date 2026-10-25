@@ -1,0 +1,1 @@
+<?php require __DIR__.'/../bootstrap.php';require_admin();if($_SERVER['REQUEST_METHOD']!=='POST'){redirect('/admin/');}verify_csrf();set_setting('cms_cache_version',(string)time());if(function_exists('opcache_reset')){@opcache_reset();}flash('success','PocketCat application cache was invalidated.');$back=(string)($_SERVER['HTTP_REFERER']??'/admin/');redirect($back);

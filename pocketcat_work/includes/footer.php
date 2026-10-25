@@ -1,0 +1,3 @@
+<link rel="stylesheet" href="/assets/css/help-icon.css"><script src="/assets/js/help-icons.js" defer></script>
+<?php if(($_GET['visual']??'')==='1' && function_exists('current_user') && (current_user()['role']??'')==='admin' && function_exists('policy_admin_permission') && policy_admin_permission('*')): ?><link rel="stylesheet" href="/assets/css/editor-suite.css"><link rel="stylesheet" href="/assets/css/editor-suite/visual-suite.css"><script>window.PocketCatVisualSuite={enabled:true,api:'/api/admin/editor-suite/',csrf:'<?=e(csrf_token())?>',page:<?=json_encode(public_page_slug())?>};</script><script src="/assets/js/editor-suite/visual-suite.js" defer></script><?php endif; ?>
+<?php page_end(); ?>

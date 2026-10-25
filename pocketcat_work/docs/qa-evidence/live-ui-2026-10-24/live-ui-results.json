@@ -1,0 +1,262 @@
+{
+  "desktop": {
+    "media": {
+      "singleClick": true,
+      "completedWithoutPause": true,
+      "assetVisible": true,
+      "successToast": true,
+      "uploadResponses": [
+        {
+          "status": 200,
+          "url": "/api/upload-chunk/"
+        },
+        {
+          "status": 200,
+          "url": "/api/upload-chunk/"
+        },
+        {
+          "status": 200,
+          "url": "/api/upload-chunk/"
+        },
+        {
+          "status": 200,
+          "url": "/api/upload-chunk/"
+        },
+        {
+          "status": 200,
+          "url": "/api/upload-chunk/"
+        },
+        {
+          "status": 200,
+          "url": "/api/upload-chunk/"
+        },
+        {
+          "status": 200,
+          "url": "/api/upload-chunk/"
+        }
+      ],
+      "progressTextObserved": true,
+      "progressMetrics": [
+        "UPLOAD PROGRESS\n30% / 100%\nUPLOAD SIZE\n256 KB / 844 KB\nNETWORK SPEED\n2.25 MB/s\nFILES\n0 / 1\nTIME REMAINING\n1s\nQUEUE\n1 active · 0 queued · 0 paused",
+        "UPLOAD PROGRESS\n61% / 100%\nUPLOAD SIZE\n513 KB / 844 KB\nNETWORK SPEED\n3.73 MB/s\nFILES\n0 / 1\nTIME REMAINING\n1s\nQUEUE\n1 active · 0 queued · 0 paused",
+        "UPLOAD PROGRESS\n61% / 100%\nUPLOAD SIZE\n512 KB / 844 KB\nNETWORK SPEED\n3.64 MB/s\nFILES\n0 / 1\nTIME REMAINING\n1s\nQUEUE\n1 active · 0 queued · 0 paused",
+        "UPLOAD PROGRESS\n61% / 100%\nUPLOAD SIZE\n512 KB / 844 KB\nNETWORK SPEED\n3.64 MB/s\nFILES\n0 / 1\nTIME REMAINING\n1s\nQUEUE\n1 active · 0 queued · 0 paused",
+        "UPLOAD PROGRESS\n91% / 100%\nUPLOAD SIZE\n769 KB / 844 KB\nNETWORK SPEED\n4.66 MB/s\nFILES\n0 / 1\nTIME REMAINING\n1s\nQUEUE\n1 active · 0 queued · 0 paused",
+        "UPLOAD PROGRESS\n91% / 100%\nUPLOAD SIZE\n768 KB / 844 KB\nNETWORK SPEED\n4.58 MB/s\nFILES\n0 / 1\nTIME REMAINING\n1s\nQUEUE\n1 active · 0 queued · 0 paused",
+        "UPLOAD PROGRESS\n91% / 100%\nUPLOAD SIZE\n768 KB / 844 KB\nNETWORK SPEED\n4.58 MB/s\nFILES\n0 / 1\nTIME REMAINING\n1s\nQUEUE\n1 active · 0 queued · 0 paused",
+        "UPLOAD PROGRESS\n100% / 100%\nUPLOAD SIZE\n844 KB / 844 KB\nNETWORK SPEED\n4.42 MB/s\nFILES\n0 / 1\nTIME REMAINING\n0s\nQUEUE\n1 active · 0 queued · 0 paused",
+        "UPLOAD PROGRESS\n100% / 100%\nUPLOAD SIZE\n844 KB / 844 KB\nNETWORK SPEED\n4.35 MB/s\nFILES\n0 / 1\nTIME REMAINING\n0s\nQUEUE\n1 active · 0 queued · 0 paused",
+        "UPLOAD PROGRESS\n100% / 100%\nUPLOAD SIZE\n844 KB / 844 KB\nNETWORK SPEED\n—\nFILES\n1 / 1\nTIME REMAINING\n—\nQUEUE\n0 active · 0 queued · 0 paused"
+      ],
+      "trace": [
+        {
+          "metrics": "UPLOAD PROGRESS\n30% / 100%\nUPLOAD SIZE\n257 KB / 844 KB\nNETWORK SPEED\n2.31 MB/s\nFILES\n0 / 1\nTIME REMAINING\n1s\nQUEUE\n1 active · 0 queued · 0 paused",
+          "state": "preparing",
+          "card": "📄\npocketcat-media-one-click-final.txt\nUploading chunk…\nUpload size\n844 KB\n257 KB / 844 KB30% / 100%Network speed: 2.31 MB/sETA: 1s\nⅡ Pause\nCancel\nRemove"
+        },
+        {
+          "metrics": "UPLOAD PROGRESS\n30% / 100%\nUPLOAD SIZE\n256 KB / 844 KB\nNETWORK SPEED\n2.25 MB/s\nFILES\n0 / 1\nTIME REMAINING\n1s\nQUEUE\n1 active · 0 queued · 0 paused",
+          "state": "preparing",
+          "card": "📄\npocketcat-media-one-click-final.txt\nUploading 30%\nUpload size\n844 KB\n256 KB / 844 KB30% / 100%Network speed: 2.25 MB/sETA: 1s\nⅡ Pause\nCancel\nRemove"
+        },
+        {
+          "metrics": "UPLOAD PROGRESS\n30% / 100%\nUPLOAD SIZE\n256 KB / 844 KB\nNETWORK SPEED\n2.25 MB/s\nFILES\n0 / 1\nTIME REMAINING\n1s\nQUEUE\n1 active · 0 queued · 0 paused",
+          "state": "preparing",
+          "card": "📄\npocketcat-media-one-click-final.txt\nUploading chunk…\nUpload size\n844 KB\n256 KB / 844 KB30% / 100%Network speed: 2.25 MB/sETA: 1s\nⅡ Pause\nCancel\nRemove"
+        },
+        {
+          "metrics": "UPLOAD PROGRESS\n61% / 100%\nUPLOAD SIZE\n513 KB / 844 KB\nNETWORK SPEED\n3.73 MB/s\nFILES\n0 / 1\nTIME REMAINING\n1s\nQUEUE\n1 active · 0 queued · 0 paused",
+          "state": "preparing",
+          "card": "📄\npocketcat-media-one-click-final.txt\nUploading chunk…\nUpload size\n844 KB\n513 KB / 844 KB61% / 100%Network speed: 3.73 MB/sETA: 1s\nⅡ Pause\nCancel\nRemove"
+        },
+        {
+          "metrics": "UPLOAD PROGRESS\n61% / 100%\nUPLOAD SIZE\n512 KB / 844 KB\nNETWORK SPEED\n3.64 MB/s\nFILES\n0 / 1\nTIME REMAINING\n1s\nQUEUE\n1 active · 0 queued · 0 paused",
+          "state": "preparing",
+          "card": "📄\npocketcat-media-one-click-final.txt\nUploading 61%\nUpload size\n844 KB\n512 KB / 844 KB61% / 100%Network speed: 3.64 MB/sETA: 1s\nⅡ Pause\nCancel\nRemove"
+        },
+        {
+          "metrics": "UPLOAD PROGRESS\n61% / 100%\nUPLOAD SIZE\n512 KB / 844 KB\nNETWORK SPEED\n3.64 MB/s\nFILES\n0 / 1\nTIME REMAINING\n1s\nQUEUE\n1 active · 0 queued · 0 paused",
+          "state": "preparing",
+          "card": "📄\npocketcat-media-one-click-final.txt\nUploading chunk…\nUpload size\n844 KB\n512 KB / 844 KB61% / 100%Network speed: 3.64 MB/sETA: 1s\nⅡ Pause\nCancel\nRemove"
+        },
+        {
+          "metrics": "UPLOAD PROGRESS\n91% / 100%\nUPLOAD SIZE\n769 KB / 844 KB\nNETWORK SPEED\n4.66 MB/s\nFILES\n0 / 1\nTIME REMAINING\n1s\nQUEUE\n1 active · 0 queued · 0 paused",
+          "state": "preparing",
+          "card": "📄\npocketcat-media-one-click-final.txt\nUploading chunk…\nUpload size\n844 KB\n769 KB / 844 KB91% / 100%Network speed: 4.66 MB/sETA: 1s\nⅡ Pause\nCancel\nRemove"
+        },
+        {
+          "metrics": "UPLOAD PROGRESS\n91% / 100%\nUPLOAD SIZE\n768 KB / 844 KB\nNETWORK SPEED\n4.58 MB/s\nFILES\n0 / 1\nTIME REMAINING\n1s\nQUEUE\n1 active · 0 queued · 0 paused",
+          "state": "preparing",
+          "card": "📄\npocketcat-media-one-click-final.txt\nUploading 91%\nUpload size\n844 KB\n768 KB / 844 KB91% / 100%Network speed: 4.58 MB/sETA: 1s\nⅡ Pause\nCancel\nRemove"
+        },
+        {
+          "metrics": "UPLOAD PROGRESS\n91% / 100%\nUPLOAD SIZE\n768 KB / 844 KB\nNETWORK SPEED\n4.58 MB/s\nFILES\n0 / 1\nTIME REMAINING\n1s\nQUEUE\n1 active · 0 queued · 0 paused",
+          "state": "preparing",
+          "card": "📄\npocketcat-media-one-click-final.txt\nUploading chunk…\nUpload size\n844 KB\n768 KB / 844 KB91% / 100%Network speed: 4.58 MB/sETA: 1s\nⅡ Pause\nCancel\nRemove"
+        },
+        {
+          "metrics": "UPLOAD PROGRESS\n100% / 100%\nUPLOAD SIZE\n844 KB / 844 KB\nNETWORK SPEED\n4.42 MB/s\nFILES\n0 / 1\nTIME REMAINING\n0s\nQUEUE\n1 active · 0 queued · 0 paused",
+          "state": "preparing",
+          "card": "📄\npocketcat-media-one-click-final.txt\nUploading chunk…\nUpload size\n844 KB\n844 KB / 844 KB100% / 100%Network speed: 4.42 MB/sETA: Complete\nⅡ Pause\nCancel\nRemove"
+        },
+        {
+          "metrics": "UPLOAD PROGRESS\n100% / 100%\nUPLOAD SIZE\n844 KB / 844 KB\nNETWORK SPEED\n4.35 MB/s\nFILES\n0 / 1\nTIME REMAINING\n0s\nQUEUE\n1 active · 0 queued · 0 paused",
+          "state": "preparing",
+          "card": "📄\npocketcat-media-one-click-final.txt\nUploading 100%\nUpload size\n844 KB\n844 KB / 844 KB100% / 100%Network speed: 4.35 MB/sETA: Complete\nⅡ Pause\nCancel\nRemove"
+        },
+        {
+          "metrics": "UPLOAD PROGRESS\n100% / 100%\nUPLOAD SIZE\n844 KB / 844 KB\nNETWORK SPEED\n—\nFILES\n1 / 1\nTIME REMAINING\n—\nQUEUE\n0 active · 0 queued · 0 paused",
+          "state": "done",
+          "card": "📄\npocketcat-media-one-click-final.txt\nCompleted\nUpload size\n844 KB\n844 KB / 844 KB100% / 100%Network speed: 3.46 MB/sETA: Complete\n✓ Completed\nRemove"
+        }
+      ],
+      "paused": false
+    },
+    "files": {
+      "uploadLayout": {
+        "width": 1032,
+        "textWidth": 680,
+        "text": "Upload files\n\nAdvanced resumable uploads with live network speed, upload size, exact 0–100% progress, retry and cancel controls. Re-selecting the same file is supported and is automatically renamed on the server. Bulk uploads are queued safely with controlled parallel transfers."
+      },
+      "gridCard": {
+        "display": "block",
+        "width": 335,
+        "height": 352,
+        "writingMode": "horizontal-tb",
+        "viewportWidth": 1440,
+        "documentWidth": 1440,
+        "hasDashedVerticalBorder": false
+      },
+      "listCard": {
+        "display": "flex",
+        "width": 1032,
+        "height": 292,
+        "writingMode": "horizontal-tb",
+        "viewportWidth": 1440,
+        "documentWidth": 1440,
+        "hasDashedVerticalBorder": false
+      }
+    },
+    "logo": {
+      "naturalWidth": 320,
+      "complete": true,
+      "headerVisibleText": "",
+      "visibleTitleCount": 0,
+      "previewNaturalWidth": 320,
+      "imageHttpStatus": 200,
+      "src": "http://127.0.0.1:8081/uploads/site-branding/b4a78b9b8fa683165d832efe.svg",
+      "viewportWidth": 1440,
+      "documentWidth": 1440,
+      "uploadVerification": {
+        "upload": {
+          "headerNaturalWidth": 320,
+          "previewNaturalWidth": 320,
+          "imageHttpStatus": 200,
+          "visibleHeaderTitle": 0,
+          "saveMessage": "Site settings and logo saved."
+        },
+        "uploadResponses": [
+          {
+            "url": "/admin/site-settings-save/",
+            "status": 200
+          },
+          {
+            "url": "/admin/site-logo-upload/",
+            "status": 200
+          }
+        ],
+        "errors": [],
+        "fallback": {
+          "desktop": {
+            "logoHidden": true,
+            "iconVisible": true,
+            "title": "PocketCat",
+            "visibleTitleCount": 1,
+            "viewportWidth": 1440,
+            "documentWidth": 1440
+          },
+          "mobile": {
+            "logoHidden": true,
+            "iconVisible": true,
+            "title": "PocketCat",
+            "visibleTitleCount": 1,
+            "viewportWidth": 390,
+            "documentWidth": 390
+          }
+        }
+      },
+      "fallback": {
+        "desktop": {
+          "logoHidden": true,
+          "iconVisible": true,
+          "title": "PocketCat",
+          "visibleTitleCount": 1,
+          "viewportWidth": 1440,
+          "documentWidth": 1440
+        },
+        "mobile": {
+          "logoHidden": true,
+          "iconVisible": true,
+          "title": "PocketCat",
+          "visibleTitleCount": 1,
+          "viewportWidth": 390,
+          "documentWidth": 390
+        }
+      },
+      "uploadResponses": [
+        {
+          "url": "/admin/site-settings-save/",
+          "status": 200
+        },
+        {
+          "url": "/admin/site-logo-upload/",
+          "status": 200
+        }
+      ],
+      "pageErrors": []
+    },
+    "errors": []
+  },
+  "mobile": {
+    "files": {
+      "upload": {
+        "width": 328,
+        "textWidth": 292,
+        "title": "Upload files\n\nAdvanced resumable uploads with live network speed, upload size, exact 0–100% progress, retry and cancel controls. Re-selecting the same file is supported and is automatically renamed on the server. Bulk uploads are queued safely with controlled parallel transfers.",
+        "viewportWidth": 390,
+        "documentWidth": 390,
+        "writingMode": "horizontal-tb"
+      },
+      "fileCard": {
+        "display": "flex",
+        "width": 328,
+        "height": 312,
+        "writingMode": "horizontal-tb",
+        "viewportWidth": 390,
+        "documentWidth": 390,
+        "hasDashedVerticalBorder": false
+      }
+    },
+    "logo": {
+      "naturalWidth": 320,
+      "headerVisibleText": "",
+      "visibleTitleCount": 0,
+      "viewportWidth": 390,
+      "documentWidth": 390,
+      "nameVisibilityDisabledFallback": {
+        "logoHidden": true,
+        "iconVisible": true,
+        "titleElements": 0,
+        "documentWidth": 390,
+        "viewportWidth": 390
+      },
+      "restoredAfterFallback": {
+        "showTitle": true,
+        "logoWidth": 320,
+        "titleVisible": false
+      },
+      "disabledTitlePageErrors": []
+    },
+    "errors": []
+  }
+}

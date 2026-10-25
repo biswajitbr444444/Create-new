@@ -1,0 +1,2304 @@
+{
+  "generatedAt": "2026-10-23T20:20:50.885Z",
+  "base": "http://127.0.0.1:8081",
+  "engines": {
+    "chromium": {
+      "routes": [
+        {
+          "route": "/",
+          "status": 200,
+          "title": "PocketCat · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/admin/",
+          "status": 200,
+          "title": "Admin Dashboard · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/dashboard/",
+          "status": 200,
+          "title": "Dashboard · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/files/",
+          "status": 200,
+          "title": "PocketCat · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/files/trash/",
+          "status": 200,
+          "title": "Trash · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/share-management/",
+          "status": 200,
+          "title": "Share Management · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/ai/",
+          "status": 200,
+          "title": "AI Assistant · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/posts/",
+          "status": 404,
+          "title": "",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": false
+        },
+        {
+          "route": "/pages/",
+          "status": 404,
+          "title": "",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": false
+        },
+        {
+          "route": "/settings/",
+          "status": 200,
+          "title": "My Settings · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/tasks/",
+          "status": 200,
+          "title": "Tasks · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/notes/",
+          "status": 200,
+          "title": "Notes · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/projects/",
+          "status": 200,
+          "title": "Projects · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/links/",
+          "status": 200,
+          "title": "PocketCat · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/analytics/",
+          "status": 200,
+          "title": "Advanced Website Analytics · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/login/",
+          "status": 200,
+          "title": "Dashboard · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/signup/",
+          "status": 200,
+          "title": "Dashboard · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/forgot-password/",
+          "status": 200,
+          "title": "Forgot Password · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/pricing/",
+          "status": 200,
+          "title": "Pricing · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/faq/",
+          "status": 200,
+          "title": "Frequently Asked Questions · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/contact/",
+          "status": 200,
+          "title": "Contact · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/product/",
+          "status": 200,
+          "title": "Product · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/features/",
+          "status": 200,
+          "title": "Features · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/how-it-works/",
+          "status": 200,
+          "title": "How It Works · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/about/",
+          "status": 200,
+          "title": "About · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/code/",
+          "status": 200,
+          "title": "Code Editor · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/docs/",
+          "status": 200,
+          "title": "Help & Documentation · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/security/",
+          "status": 200,
+          "title": "Security · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/privacy/",
+          "status": 200,
+          "title": "Privacy Policy · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/terms/",
+          "status": 200,
+          "title": "Terms of Service · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/support/",
+          "status": 200,
+          "title": "Admin Support · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/acceptable-use/",
+          "status": 200,
+          "title": "Acceptable Use · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/cookie-policy/",
+          "status": 200,
+          "title": "Cookie Policy · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/admin/version-details/",
+          "status": 200,
+          "title": "Version Details · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/admin/comments/",
+          "status": 200,
+          "title": "Comments · CMS · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/media/",
+          "status": 200,
+          "title": "Media Library · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/search/",
+          "status": 200,
+          "title": "Search · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/settings/ai/",
+          "status": 200,
+          "title": "AWS Bedrock Settings · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/billing/",
+          "status": 200,
+          "title": "Plans & Billing · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/admin/ota-updater/",
+          "status": 200,
+          "title": "OTA Update Center · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/admin/posts/",
+          "status": 200,
+          "title": "Posts · CMS · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/admin/pages/",
+          "status": 200,
+          "title": "Pages · CMS · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/admin/categories/",
+          "status": 200,
+          "title": "Categories · CMS · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/admin/tags/",
+          "status": 200,
+          "title": "Tags · CMS · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/admin/users/",
+          "status": 200,
+          "title": "Users · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/admin/database/",
+          "status": 200,
+          "title": "Database Settings · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/admin/email/",
+          "status": 200,
+          "title": "Email Settings · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/admin/ai/",
+          "status": 200,
+          "title": "Amazon Bedrock · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/admin/ai-users/",
+          "status": 200,
+          "title": "Customer AI Access · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/admin/settings/",
+          "status": 200,
+          "title": "Site Settings · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/admin/geo-providers/",
+          "status": 200,
+          "title": "Local GeoIP · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/admin/site-editor/",
+          "status": 200,
+          "title": "Live Site Editor · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/admin/platform-activity/",
+          "status": 200,
+          "title": "Platform Activity · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/admin/analytics/",
+          "status": 200,
+          "title": "Admin Advanced Analytics · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/admin/docs/",
+          "status": 200,
+          "title": "Documentation CMS · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/admin/security/",
+          "status": 200,
+          "title": "Security · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/admin/files/",
+          "status": 200,
+          "title": "PocketCat · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/admin/messages/",
+          "status": 200,
+          "title": "Contact Messages · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/admin/billing/",
+          "status": 200,
+          "title": "Billing Requests · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/admin/support/",
+          "status": 200,
+          "title": "Support Chat · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/admin/control-plane/",
+          "status": 200,
+          "title": "Super Admin Control Plane · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/admin/visual-engine/",
+          "status": 200,
+          "title": "Visual Command Center · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/admin/menus/",
+          "status": 200,
+          "title": "Navigation Menus · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/admin/plans/",
+          "status": 200,
+          "title": "Subscription Plan Manager · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/admin/redirects/",
+          "status": 200,
+          "title": "Redirect Management · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/file/bdX1k6rTkybi/",
+          "status": 200,
+          "title": "qa-permission-proof.txt — PocketCat",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/qr/9odErYm/",
+          "status": 200,
+          "title": "PocketCat · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/r/[revoked-local-test-share]",
+          "status": 200,
+          "title": "qa-permission-proof.txt",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true,
+          "expected": "410 after test-share revocation"
+        },
+        {
+          "route": "/ai/transform-tasks/",
+          "status": 200,
+          "title": "Turn Text Into Tasks · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/r/[revoked-local-test-share]",
+          "status": 200,
+          "title": "Local QA share workflow",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true,
+          "expected": "410 after test-share revocation"
+        },
+        {
+          "route": "/qr/U6v1oxY/",
+          "status": 200,
+          "title": "PocketCat · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/r/[revoked-local-test-share]",
+          "status": 200,
+          "title": "qa-workflow-proof.txt",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true,
+          "expected": "410 after test-share revocation"
+        },
+        {
+          "route": "/qr/KNfLOqV/",
+          "status": 200,
+          "title": "PocketCat · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        }
+      ],
+      "jpegScreenshots": 71
+    },
+    "firefox": {
+      "routes": [
+        {
+          "route": "/",
+          "status": 200,
+          "title": "PocketCat · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/admin/",
+          "status": 200,
+          "title": "Admin Dashboard · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/dashboard/",
+          "status": 200,
+          "title": "Dashboard · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/files/",
+          "status": 200,
+          "title": "PocketCat · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/files/trash/",
+          "status": 200,
+          "title": "Trash · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/share-management/",
+          "status": 200,
+          "title": "Share Management · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/ai/",
+          "status": 200,
+          "title": "AI Assistant · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/posts/",
+          "status": 404,
+          "title": "",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": false
+        },
+        {
+          "route": "/pages/",
+          "status": 404,
+          "title": "",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": false
+        },
+        {
+          "route": "/settings/",
+          "status": 200,
+          "title": "My Settings · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/tasks/",
+          "status": 200,
+          "title": "Tasks · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/notes/",
+          "status": 200,
+          "title": "Notes · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/projects/",
+          "status": 200,
+          "title": "Projects · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/links/",
+          "status": 200,
+          "title": "PocketCat · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/analytics/",
+          "status": 200,
+          "title": "Advanced Website Analytics · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/login/",
+          "status": 200,
+          "title": "Dashboard · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/signup/",
+          "status": 200,
+          "title": "Dashboard · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/forgot-password/",
+          "status": 200,
+          "title": "Forgot Password · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/pricing/",
+          "status": 200,
+          "title": "Pricing · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/faq/",
+          "status": 200,
+          "title": "Frequently Asked Questions · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/contact/",
+          "status": 200,
+          "title": "Contact · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/product/",
+          "status": 200,
+          "title": "Product · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/features/",
+          "status": 200,
+          "title": "Features · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/how-it-works/",
+          "status": 200,
+          "title": "How It Works · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/about/",
+          "status": 200,
+          "title": "About · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/code/",
+          "status": 200,
+          "title": "Code Editor · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/docs/",
+          "status": 200,
+          "title": "Help & Documentation · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/security/",
+          "status": 200,
+          "title": "Security · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/privacy/",
+          "status": 200,
+          "title": "Privacy Policy · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/terms/",
+          "status": 200,
+          "title": "Terms of Service · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/support/",
+          "status": 200,
+          "title": "Admin Support · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/acceptable-use/",
+          "status": 200,
+          "title": "Acceptable Use · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/cookie-policy/",
+          "status": 200,
+          "title": "Cookie Policy · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/admin/version-details/",
+          "status": 200,
+          "title": "Version Details · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/admin/comments/",
+          "status": 200,
+          "title": "Comments · CMS · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/media/",
+          "status": 200,
+          "title": "Media Library · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/search/",
+          "status": 200,
+          "title": "Search · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/settings/ai/",
+          "status": 200,
+          "title": "AWS Bedrock Settings · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/billing/",
+          "status": 200,
+          "title": "Plans & Billing · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/admin/ota-updater/",
+          "status": 200,
+          "title": "OTA Update Center · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/admin/posts/",
+          "status": 200,
+          "title": "Posts · CMS · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/admin/pages/",
+          "status": 200,
+          "title": "Pages · CMS · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/admin/categories/",
+          "status": 200,
+          "title": "Categories · CMS · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/admin/tags/",
+          "status": 200,
+          "title": "Tags · CMS · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/admin/users/",
+          "status": 200,
+          "title": "Users · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/admin/database/",
+          "status": 200,
+          "title": "Database Settings · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/admin/email/",
+          "status": 200,
+          "title": "Email Settings · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/admin/ai/",
+          "status": 200,
+          "title": "Amazon Bedrock · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/admin/ai-users/",
+          "status": 200,
+          "title": "Customer AI Access · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/admin/settings/",
+          "status": 200,
+          "title": "Site Settings · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/admin/geo-providers/",
+          "status": 200,
+          "title": "Local GeoIP · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/admin/site-editor/",
+          "status": 200,
+          "title": "Live Site Editor · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/admin/platform-activity/",
+          "status": 200,
+          "title": "Platform Activity · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/admin/analytics/",
+          "status": 200,
+          "title": "Admin Advanced Analytics · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/admin/docs/",
+          "status": 200,
+          "title": "Documentation CMS · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/admin/security/",
+          "status": 200,
+          "title": "Security · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/admin/files/",
+          "status": 200,
+          "title": "PocketCat · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/admin/messages/",
+          "status": 200,
+          "title": "Contact Messages · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/admin/billing/",
+          "status": 200,
+          "title": "Billing Requests · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/admin/support/",
+          "status": 200,
+          "title": "Support Chat · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/admin/control-plane/",
+          "status": 200,
+          "title": "Super Admin Control Plane · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/admin/visual-engine/",
+          "status": 200,
+          "title": "Visual Command Center · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/admin/menus/",
+          "status": 200,
+          "title": "Navigation Menus · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/admin/plans/",
+          "status": 200,
+          "title": "Subscription Plan Manager · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/admin/redirects/",
+          "status": 200,
+          "title": "Redirect Management · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/file/bdX1k6rTkybi/",
+          "status": 200,
+          "title": "qa-permission-proof.txt — PocketCat",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/qr/9odErYm/",
+          "status": 200,
+          "title": "PocketCat · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/r/[revoked-local-test-share]",
+          "status": 200,
+          "title": "qa-permission-proof.txt — PocketCat",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true,
+          "expected": "410 after test-share revocation"
+        },
+        {
+          "route": "/ai/transform-tasks/",
+          "status": 200,
+          "title": "Turn Text Into Tasks · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/r/[revoked-local-test-share]",
+          "status": 410,
+          "title": "",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": false,
+          "expected": "410 after test-share revocation"
+        },
+        {
+          "route": "/qr/U6v1oxY/",
+          "status": 200,
+          "title": "PocketCat · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/r/[revoked-local-test-share]",
+          "status": 410,
+          "title": "",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": false,
+          "expected": "410 after test-share revocation"
+        },
+        {
+          "route": "/qr/KNfLOqV/",
+          "status": 200,
+          "title": "PocketCat · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        }
+      ],
+      "jpegScreenshots": 69
+    },
+    "webkit": {
+      "routes": [
+        {
+          "route": "/",
+          "status": 200,
+          "title": "PocketCat · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/admin/",
+          "status": 200,
+          "title": "Admin Dashboard · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/dashboard/",
+          "status": 200,
+          "title": "Dashboard · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/files/",
+          "status": 200,
+          "title": "PocketCat · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/files/trash/",
+          "status": 200,
+          "title": "Trash · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/share-management/",
+          "status": 200,
+          "title": "Share Management · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/ai/",
+          "status": 200,
+          "title": "AI Assistant · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/posts/",
+          "status": 404,
+          "title": "",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": false
+        },
+        {
+          "route": "/pages/",
+          "status": 404,
+          "title": "",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": false
+        },
+        {
+          "route": "/settings/",
+          "status": 200,
+          "title": "My Settings · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/tasks/",
+          "status": 200,
+          "title": "Tasks · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/notes/",
+          "status": 200,
+          "title": "Notes · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/projects/",
+          "status": 200,
+          "title": "Projects · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/links/",
+          "status": 200,
+          "title": "PocketCat · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/analytics/",
+          "status": 200,
+          "title": "Advanced Website Analytics · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/login/",
+          "status": 200,
+          "title": "Dashboard · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/signup/",
+          "status": 200,
+          "title": "Dashboard · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/forgot-password/",
+          "status": 200,
+          "title": "Forgot Password · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/pricing/",
+          "status": 200,
+          "title": "Pricing · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/faq/",
+          "status": 200,
+          "title": "Frequently Asked Questions · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/contact/",
+          "status": 200,
+          "title": "Contact · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/product/",
+          "status": 200,
+          "title": "Product · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/features/",
+          "status": 200,
+          "title": "Features · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/how-it-works/",
+          "status": 200,
+          "title": "How It Works · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/about/",
+          "status": 200,
+          "title": "About · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/code/",
+          "status": 200,
+          "title": "Code Editor · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/docs/",
+          "status": 200,
+          "title": "Help & Documentation · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/security/",
+          "status": 200,
+          "title": "Security · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/privacy/",
+          "status": 200,
+          "title": "Privacy Policy · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/terms/",
+          "status": 200,
+          "title": "Terms of Service · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/support/",
+          "status": 200,
+          "title": "Admin Support · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/acceptable-use/",
+          "status": 200,
+          "title": "Acceptable Use · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/cookie-policy/",
+          "status": 200,
+          "title": "Cookie Policy · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/admin/version-details/",
+          "status": 200,
+          "title": "Version Details · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/admin/comments/",
+          "status": 200,
+          "title": "Comments · CMS · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/media/",
+          "status": 200,
+          "title": "Media Library · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/search/",
+          "status": 200,
+          "title": "Search · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/settings/ai/",
+          "status": 200,
+          "title": "AWS Bedrock Settings · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/billing/",
+          "status": 200,
+          "title": "Plans & Billing · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/admin/ota-updater/",
+          "status": 200,
+          "title": "OTA Update Center · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/admin/posts/",
+          "status": 200,
+          "title": "Posts · CMS · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/admin/pages/",
+          "status": 200,
+          "title": "Pages · CMS · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/admin/categories/",
+          "status": 200,
+          "title": "Categories · CMS · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/admin/tags/",
+          "status": 200,
+          "title": "Tags · CMS · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/admin/users/",
+          "status": 200,
+          "title": "Users · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/admin/database/",
+          "status": 200,
+          "title": "Database Settings · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/admin/email/",
+          "status": 200,
+          "title": "Email Settings · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/admin/ai/",
+          "status": 200,
+          "title": "Amazon Bedrock · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/admin/ai-users/",
+          "status": 200,
+          "title": "Customer AI Access · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/admin/settings/",
+          "status": 200,
+          "title": "Site Settings · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/admin/geo-providers/",
+          "status": 200,
+          "title": "Local GeoIP · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/admin/site-editor/",
+          "status": 200,
+          "title": "Live Site Editor · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/admin/platform-activity/",
+          "status": 200,
+          "title": "Platform Activity · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/admin/analytics/",
+          "status": 200,
+          "title": "Admin Advanced Analytics · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/admin/docs/",
+          "status": 200,
+          "title": "Documentation CMS · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/admin/security/",
+          "status": 200,
+          "title": "Security · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/admin/files/",
+          "status": 200,
+          "title": "PocketCat · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/admin/messages/",
+          "status": 200,
+          "title": "Contact Messages · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/admin/billing/",
+          "status": 200,
+          "title": "Billing Requests · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/admin/support/",
+          "status": 200,
+          "title": "Support Chat · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/admin/control-plane/",
+          "status": 200,
+          "title": "Super Admin Control Plane · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/admin/visual-engine/",
+          "status": 200,
+          "title": "Visual Command Center · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/admin/menus/",
+          "status": 200,
+          "title": "Navigation Menus · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/admin/plans/",
+          "status": 200,
+          "title": "Subscription Plan Manager · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/admin/redirects/",
+          "status": 200,
+          "title": "Redirect Management · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/file/bdX1k6rTkybi/",
+          "status": 200,
+          "title": "qa-permission-proof.txt — PocketCat",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/qr/9odErYm/",
+          "status": 200,
+          "title": "PocketCat · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/r/[revoked-local-test-share]",
+          "status": 200,
+          "title": "qa-permission-proof.txt — PocketCat",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true,
+          "expected": "410 after test-share revocation"
+        },
+        {
+          "route": "/ai/transform-tasks/",
+          "status": 200,
+          "title": "Turn Text Into Tasks · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/r/[revoked-local-test-share]",
+          "status": 410,
+          "title": "",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": false,
+          "expected": "410 after test-share revocation"
+        },
+        {
+          "route": "/qr/U6v1oxY/",
+          "status": 200,
+          "title": "PocketCat · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        },
+        {
+          "route": "/r/[revoked-local-test-share]",
+          "status": 410,
+          "title": "",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": false,
+          "expected": "410 after test-share revocation"
+        },
+        {
+          "route": "/qr/KNfLOqV/",
+          "status": 200,
+          "title": "PocketCat · PocketCat Local QA",
+          "pageErrors": [],
+          "overflow": false,
+          "screenshot": true
+        }
+      ],
+      "jpegScreenshots": 69
+    }
+  },
+  "mobile": {
+    "routes": [
+      {
+        "route": "/",
+        "status": 200,
+        "overflow": false,
+        "screenshot": true
+      },
+      {
+        "route": "/admin/",
+        "status": 200,
+        "overflow": false,
+        "screenshot": true
+      },
+      {
+        "route": "/dashboard/",
+        "status": 200,
+        "overflow": false,
+        "screenshot": true
+      },
+      {
+        "route": "/files/",
+        "status": 200,
+        "overflow": false,
+        "screenshot": true
+      },
+      {
+        "route": "/files/trash/",
+        "status": 200,
+        "overflow": false,
+        "screenshot": true
+      },
+      {
+        "route": "/share-management/",
+        "status": 200,
+        "overflow": false,
+        "screenshot": true
+      },
+      {
+        "route": "/ai/",
+        "status": 200,
+        "overflow": false,
+        "screenshot": true
+      },
+      {
+        "route": "/posts/",
+        "status": 404,
+        "overflow": false,
+        "screenshot": false
+      },
+      {
+        "route": "/pages/",
+        "status": 404,
+        "overflow": false,
+        "screenshot": false
+      },
+      {
+        "route": "/settings/",
+        "status": 200,
+        "overflow": false,
+        "screenshot": true
+      },
+      {
+        "route": "/tasks/",
+        "status": 200,
+        "overflow": false,
+        "screenshot": true
+      },
+      {
+        "route": "/notes/",
+        "status": 200,
+        "overflow": false,
+        "screenshot": true
+      },
+      {
+        "route": "/projects/",
+        "status": 200,
+        "overflow": false,
+        "screenshot": true
+      },
+      {
+        "route": "/links/",
+        "status": 200,
+        "overflow": false,
+        "screenshot": true
+      },
+      {
+        "route": "/analytics/",
+        "status": 200,
+        "overflow": false,
+        "screenshot": true
+      },
+      {
+        "route": "/login/",
+        "status": 200,
+        "overflow": false,
+        "screenshot": true
+      },
+      {
+        "route": "/signup/",
+        "status": 200,
+        "overflow": false,
+        "screenshot": true
+      },
+      {
+        "route": "/forgot-password/",
+        "status": 200,
+        "overflow": false,
+        "screenshot": true
+      },
+      {
+        "route": "/pricing/",
+        "status": 200,
+        "overflow": false,
+        "screenshot": true
+      },
+      {
+        "route": "/faq/",
+        "status": 200,
+        "overflow": false,
+        "screenshot": true
+      },
+      {
+        "route": "/contact/",
+        "status": 200,
+        "overflow": false,
+        "screenshot": true
+      },
+      {
+        "route": "/product/",
+        "status": 200,
+        "overflow": false,
+        "screenshot": true
+      },
+      {
+        "route": "/features/",
+        "status": 200,
+        "overflow": false,
+        "screenshot": true
+      },
+      {
+        "route": "/how-it-works/",
+        "status": 200,
+        "overflow": false,
+        "screenshot": true
+      },
+      {
+        "route": "/about/",
+        "status": 200,
+        "overflow": false,
+        "screenshot": true
+      },
+      {
+        "route": "/code/",
+        "status": 200,
+        "overflow": false,
+        "screenshot": true
+      },
+      {
+        "route": "/docs/",
+        "status": 200,
+        "overflow": false,
+        "screenshot": true
+      },
+      {
+        "route": "/security/",
+        "status": 200,
+        "overflow": false,
+        "screenshot": true
+      },
+      {
+        "route": "/privacy/",
+        "status": 200,
+        "overflow": false,
+        "screenshot": true
+      },
+      {
+        "route": "/terms/",
+        "status": 200,
+        "overflow": false,
+        "screenshot": true
+      },
+      {
+        "route": "/support/",
+        "status": 200,
+        "overflow": false,
+        "screenshot": true
+      },
+      {
+        "route": "/acceptable-use/",
+        "status": 200,
+        "overflow": false,
+        "screenshot": true
+      },
+      {
+        "route": "/cookie-policy/",
+        "status": 200,
+        "overflow": false,
+        "screenshot": true
+      },
+      {
+        "route": "/admin/version-details/",
+        "status": 200,
+        "overflow": false,
+        "screenshot": true
+      },
+      {
+        "route": "/admin/comments/",
+        "status": 200,
+        "overflow": false,
+        "screenshot": true
+      },
+      {
+        "route": "/media/",
+        "status": 200,
+        "overflow": false,
+        "screenshot": true
+      },
+      {
+        "route": "/search/",
+        "status": 200,
+        "overflow": false,
+        "screenshot": true
+      },
+      {
+        "route": "/settings/ai/",
+        "status": 200,
+        "overflow": false,
+        "screenshot": true
+      },
+      {
+        "route": "/billing/",
+        "status": 200,
+        "overflow": false,
+        "screenshot": true
+      },
+      {
+        "route": "/admin/ota-updater/",
+        "status": 200,
+        "overflow": false,
+        "screenshot": true
+      },
+      {
+        "route": "/admin/posts/",
+        "status": 200,
+        "overflow": false,
+        "screenshot": true
+      },
+      {
+        "route": "/admin/pages/",
+        "status": 200,
+        "overflow": false,
+        "screenshot": true
+      },
+      {
+        "route": "/admin/categories/",
+        "status": 200,
+        "overflow": false,
+        "screenshot": true
+      },
+      {
+        "route": "/admin/tags/",
+        "status": 200,
+        "overflow": false,
+        "screenshot": true
+      },
+      {
+        "route": "/admin/users/",
+        "status": 200,
+        "overflow": false,
+        "screenshot": true
+      },
+      {
+        "route": "/admin/database/",
+        "status": 200,
+        "overflow": false,
+        "screenshot": true
+      },
+      {
+        "route": "/admin/email/",
+        "status": 200,
+        "overflow": false,
+        "screenshot": true
+      },
+      {
+        "route": "/admin/ai/",
+        "status": 200,
+        "overflow": false,
+        "screenshot": true
+      },
+      {
+        "route": "/admin/ai-users/",
+        "status": 200,
+        "overflow": false,
+        "screenshot": true
+      },
+      {
+        "route": "/admin/settings/",
+        "status": 200,
+        "overflow": false,
+        "screenshot": true
+      },
+      {
+        "route": "/admin/geo-providers/",
+        "status": 200,
+        "overflow": false,
+        "screenshot": true
+      },
+      {
+        "route": "/admin/site-editor/",
+        "status": 200,
+        "overflow": false,
+        "screenshot": true
+      },
+      {
+        "route": "/admin/platform-activity/",
+        "status": 200,
+        "overflow": false,
+        "screenshot": true
+      },
+      {
+        "route": "/admin/analytics/",
+        "status": 200,
+        "overflow": false,
+        "screenshot": true
+      },
+      {
+        "route": "/admin/docs/",
+        "status": 200,
+        "overflow": false,
+        "screenshot": true
+      },
+      {
+        "route": "/admin/security/",
+        "status": 200,
+        "overflow": false,
+        "screenshot": true
+      },
+      {
+        "route": "/admin/files/",
+        "status": 200,
+        "overflow": false,
+        "screenshot": true
+      },
+      {
+        "route": "/admin/messages/",
+        "status": 200,
+        "overflow": false,
+        "screenshot": true
+      },
+      {
+        "route": "/admin/billing/",
+        "status": 200,
+        "overflow": false,
+        "screenshot": true
+      },
+      {
+        "route": "/admin/support/",
+        "status": 200,
+        "overflow": false,
+        "screenshot": true
+      },
+      {
+        "route": "/admin/control-plane/",
+        "status": 200,
+        "overflow": false,
+        "screenshot": true
+      },
+      {
+        "route": "/admin/visual-engine/",
+        "status": 200,
+        "overflow": false,
+        "screenshot": true
+      },
+      {
+        "route": "/admin/menus/",
+        "status": 200,
+        "overflow": false,
+        "screenshot": true
+      },
+      {
+        "route": "/admin/plans/",
+        "status": 200,
+        "overflow": false,
+        "screenshot": true
+      },
+      {
+        "route": "/admin/redirects/",
+        "status": 200,
+        "overflow": false,
+        "screenshot": true
+      },
+      {
+        "route": "/file/bdX1k6rTkybi/",
+        "status": 200,
+        "overflow": false,
+        "screenshot": true
+      },
+      {
+        "route": "/qr/9odErYm/",
+        "status": 200,
+        "overflow": false,
+        "screenshot": true
+      },
+      {
+        "route": "/r/[revoked-local-test-share]",
+        "status": 200,
+        "overflow": false,
+        "screenshot": true
+      },
+      {
+        "route": "/ai/transform-tasks/",
+        "status": 200,
+        "overflow": false,
+        "screenshot": true
+      },
+      {
+        "route": "/r/[revoked-local-test-share]",
+        "status": 200,
+        "overflow": false,
+        "screenshot": true
+      },
+      {
+        "route": "/qr/U6v1oxY/",
+        "status": 200,
+        "overflow": false,
+        "screenshot": true
+      },
+      {
+        "route": "/r/[revoked-local-test-share]",
+        "status": 200,
+        "overflow": false,
+        "screenshot": true
+      },
+      {
+        "route": "/qr/KNfLOqV/",
+        "status": 200,
+        "overflow": false,
+        "screenshot": true
+      }
+    ],
+    "jpegScreenshots": 71
+  },
+  "routes": [
+    "/",
+    "/admin/",
+    "/dashboard/",
+    "/files/",
+    "/files/trash/",
+    "/share-management/",
+    "/ai/",
+    "/posts/",
+    "/pages/",
+    "/settings/",
+    "/tasks/",
+    "/notes/",
+    "/projects/",
+    "/links/",
+    "/analytics/",
+    "/login/",
+    "/signup/",
+    "/forgot-password/",
+    "/pricing/",
+    "/faq/",
+    "/contact/",
+    "/product/",
+    "/features/",
+    "/how-it-works/",
+    "/about/",
+    "/code/",
+    "/docs/",
+    "/security/",
+    "/privacy/",
+    "/terms/",
+    "/support/",
+    "/acceptable-use/",
+    "/cookie-policy/",
+    "/admin/version-details/",
+    "/admin/comments/",
+    "/media/",
+    "/search/",
+    "/settings/ai/",
+    "/billing/",
+    "/admin/ota-updater/",
+    "/admin/posts/",
+    "/admin/pages/",
+    "/admin/categories/",
+    "/admin/tags/",
+    "/admin/users/",
+    "/admin/database/",
+    "/admin/email/",
+    "/admin/ai/",
+    "/admin/ai-users/",
+    "/admin/settings/",
+    "/admin/geo-providers/",
+    "/admin/site-editor/",
+    "/admin/platform-activity/",
+    "/admin/analytics/",
+    "/admin/docs/",
+    "/admin/security/",
+    "/admin/files/",
+    "/admin/messages/",
+    "/admin/billing/",
+    "/admin/support/",
+    "/admin/control-plane/",
+    "/admin/visual-engine/",
+    "/admin/menus/",
+    "/admin/plans/",
+    "/admin/redirects/",
+    "/file/bdX1k6rTkybi/",
+    "/qr/9odErYm/",
+    "/r/[revoked-local-test-share]",
+    "/ai/transform-tasks/",
+    "/r/[revoked-local-test-share]",
+    "/qr/U6v1oxY/",
+    "/r/[revoked-local-test-share]",
+    "/qr/KNfLOqV/"
+  ],
+  "expectedRouteNotes": [
+    "/posts/ and /pages/ are detail endpoints that require a slug; bare requests intentionally return 404.",
+    "The two /r/ requests were synthetic links revoked during QA; HTTP 410 is expected."
+  ]
+}

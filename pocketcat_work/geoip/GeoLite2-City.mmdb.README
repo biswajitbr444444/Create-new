@@ -1,0 +1,1 @@
+The binary GeoLite2-City.mmdb is intentionally not embedded in this source ZIP because current MaxMind database downloads are authenticated to a MaxMind account/license key and the database must be kept current. Run `php geoip/update.php` after deployment to install the local database. Runtime tracking remains fully offline.

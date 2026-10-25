@@ -1,0 +1,1 @@
+<?php require_login(); page_start($title ?? "PocketCat"); ?>

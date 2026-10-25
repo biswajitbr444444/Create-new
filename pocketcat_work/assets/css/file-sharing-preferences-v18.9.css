@@ -1,0 +1,53 @@
+.pc-pref-sort{display:inline-flex;align-items:center;gap:8px;font-size:13px;color:var(--muted,#64748b);margin:8px 0}.pc-pref-sort select{border:1px solid #dbe3ee;border-radius:9px;background:var(--card,#fff);padding:8px 10px;color:inherit;max-width:100%}.pc-item-controls{display:flex;align-items:center;gap:5px;flex-wrap:wrap;margin-top:7px}.pc-pin,.pc-palette summary,.pc-reset-color{border:1px solid #dbe3ee;background:#fff;color:#334155;border-radius:7px;padding:5px 8px;font-size:11px;cursor:pointer}.pc-pin[aria-pressed=true]{background:#eff6ff;border-color:#93c5fd;color:#1d4ed8}.pc-palette{position:relative}.pc-palette summary{list-style:none;white-space:nowrap}.pc-palette summary::-webkit-details-marker{display:none}.pc-palette-grid{position:absolute;z-index:20;top:calc(100% + 5px);left:0;display:grid;grid-template-columns:repeat(6,22px);gap:5px;background:#fff;border:1px solid #dbe3ee;border-radius:10px;padding:9px;box-shadow:0 12px 28px #0f172a22;min-width:176px}.pc-palette-grid [data-palette]{width:22px;height:22px;border-radius:50%;border:2px solid #fff;background:var(--swatch);box-shadow:0 0 0 1px #cbd5e1;cursor:pointer}.pc-palette-grid [data-palette].chosen{box-shadow:0 0 0 2px #0f172a}.pc-reset-color{grid-column:span 3}.file-card,.media-card,.folder-card{border-color:var(--pc-border-color, var(--border,#e5e7eb))!important;transition:border-color .15s,box-shadow .15s}.folder-card{background:var(--pc-folder-color,transparent)!important}.pc-is-pinned{order:-1;box-shadow:0 0 0 1px #93c5fd,0 8px 20px #2563eb12}.pc-video-poster{display:block;width:100%;height:100%;min-height:90px;max-height:220px;object-fit:cover;border-radius:8px}.pc-video-play{position:absolute;z-index:3;left:50%;top:50%;transform:translate(-50%,-50%);width:44px;height:44px;border:1px solid #ffffffbb;border-radius:50%;background:#0f172acc;color:white;font-size:18px;display:grid;place-items:center;cursor:pointer}.file-preview-mini,.media-preview{position:relative;overflow:hidden}.pc-list-view{display:flex!important;flex-direction:column!important}.pc-list-view>.file-card{width:100%;display:grid;grid-template-columns:minmax(180px,1fr) minmax(100px,.5fr) minmax(180px,1fr);align-items:center;gap:12px}.pc-list-view .file-preview-mini{max-height:80px}.pc-list-view .file-preview-mini img{max-height:80px;object-fit:cover}@media(max-width:640px){.pc-pref-sort{width:100%;justify-content:space-between}.pc-item-controls{gap:4px}.pc-palette-grid{grid-template-columns:repeat(6,24px)}.pc-list-view>.file-card{display:flex;flex-direction:column;align-items:stretch}}
+
+.pc-palette.pc-palette-up .pc-palette-grid{top:auto;bottom:calc(100% + 5px)}.pc-palette-grid{max-height:min(55vh,320px);overflow:auto;overscroll-behavior:contain}.pc-palette[open]{z-index:10020}.pc-item-controls{position:relative}.file-card-top .file-select{flex:0 0 auto;margin-top:4px}.file-card-top .file-icon{flex:0 0 40px}.file-main strong{line-height:1.35;overflow-wrap:anywhere;white-space:normal}.file-menu-pop{max-height:min(65vh,420px);overflow-y:auto;overscroll-behavior:contain}
+
+/* V19.67: tighten responsive layout for File Storage toolbars and long metadata. */
+.file-page-head,.file-page-head>* ,.file-toolbar,.toolbar-controls,.file-card,.file-card-top,.file-meta,.file-link-strip,.bulk-bar,.upload-panel,.modern-drop{min-width:0;max-width:100%;}
+.file-main strong,.file-main .muted,.file-meta span,.file-link-strip>*{overflow-wrap:anywhere;word-break:break-word;}
+.file-card-top{align-items:flex-start;}
+.file-icon,.file-select{flex:0 0 auto;}
+.file-menu{margin-left:auto;flex:0 0 auto;}
+.file-menu summary{white-space:nowrap;}
+.file-menu-pop{max-width:min(300px,calc(100vw - 24px));max-height:min(65vh,420px);overflow-y:auto;overscroll-behavior:contain;}
+.file-menu-pop a,.file-menu-pop button{white-space:normal;overflow-wrap:anywhere;}
+.file-grid{grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));}
+.file-grid.table-view{grid-template-columns:minmax(0,1fr);}
+.bulk-bar .check{display:flex;align-items:center;gap:8px;min-width:0;}
+.bulk-bar #bulkDownloadStatus{flex-basis:100%;}
+@media(max-width:800px){.file-page-head .actions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));}.file-page-head .actions .btn{min-width:0;white-space:normal;}.file-stats{grid-template-columns:repeat(2,minmax(0,1fr));}.file-toolbar{display:grid;grid-template-columns:minmax(0,1fr);}.toolbar-controls{display:grid;grid-template-columns:minmax(0,1fr);}.toolbar-controls>*{width:100%;min-width:0;}.bulk-bar{position:static;}.modern-drop{grid-template-columns:auto minmax(0,1fr);}.upload-concurrency{grid-column:1/-1;}}
+@media(max-width:520px){.file-grid{grid-template-columns:minmax(0,1fr);}.file-card{padding:14px;}.file-card-top{display:flex;flex-wrap:nowrap;gap:8px;}.file-main{flex:1 1 auto;min-width:0;}.file-menu-pop{position:fixed;right:12px;left:auto;top:auto;bottom:12px;width:min(320px,calc(100vw - 24px));max-width:calc(100vw - 24px);max-height:70dvh;}.file-menu.menu-up .file-menu-pop{bottom:12px;top:auto;}.bulk-bar .bulk-choice{grid-template-columns:minmax(0,1fr);}.bulk-bar button{width:100%;}.modern-drop{grid-template-columns:minmax(0,1fr);text-align:center;}.upload-concurrency{justify-content:center;}.file-meta{flex-wrap:wrap;gap:6px 10px;}}
+
+/* Keep list-mode file cards in one readable column; their children are not a three-column table. */
+#fileGrid.pc-list-view>.file-card{display:flex;flex-direction:column;align-items:stretch;gap:12px;width:100%;min-width:0}
+#fileGrid.pc-list-view>.file-card>.file-card-top{display:grid;grid-template-columns:auto 40px minmax(0,1fr) auto;align-items:center;gap:10px;width:100%;min-width:0}
+#fileGrid.pc-list-view .file-card-top .pc-item-controls{grid-column:1/-1;justify-content:flex-start;margin:2px 0 0}
+#fileGrid.pc-list-view .file-preview-mini{width:100%;height:120px;margin:0}
+#fileGrid.pc-list-view .file-meta,#fileGrid.pc-list-view .file-link-strip{width:100%;justify-content:flex-start;gap:8px 14px;overflow-wrap:anywhere}
+#fileGrid.pc-list-view .file-link-strip{margin-top:0}
+
+/* Keep the upload description wide and controls in a stable side column on desktop. */
+.upload-panel,.upload-panel .modern-drop{width:100%;min-width:0;max-width:100%}
+.upload-panel .modern-drop{grid-template-columns:52px minmax(0,1fr) minmax(180px,220px);grid-template-rows:auto auto;align-items:center}
+.upload-panel .modern-drop>.drop-icon{grid-column:1;grid-row:1/3}
+.upload-panel .modern-drop>.drop-icon+div{grid-column:2;grid-row:1/3;min-width:0}
+.upload-panel .modern-drop>.drop-icon+div h2,.upload-panel .modern-drop>.drop-icon+div p{max-width:72ch;overflow-wrap:anywhere}
+.upload-panel .modern-drop>.upload-concurrency{grid-column:3;grid-row:1;min-width:0}
+.upload-panel .modern-drop>button{grid-column:3;grid-row:2;width:100%;min-width:0}
+#fileGrid .file-card-top{display:grid;grid-template-columns:auto 40px minmax(0,1fr) auto;align-items:center;gap:10px}
+#fileGrid .file-card-top .pc-item-controls{grid-column:1/-1;justify-content:flex-start;margin-top:2px}
+@media(max-width:900px){
+ #fileGrid.pc-list-view>.file-card>.file-card-top{grid-template-columns:auto 40px minmax(0,1fr) auto}
+ .upload-panel .modern-drop{grid-template-columns:44px minmax(0,1fr);grid-template-rows:auto auto auto}
+ .upload-panel .modern-drop>.drop-icon{grid-column:1;grid-row:1}
+ .upload-panel .modern-drop>.drop-icon+div{grid-column:2;grid-row:1}
+ .upload-panel .modern-drop>.upload-concurrency{grid-column:1/-1;grid-row:2}
+ .upload-panel .modern-drop>button{grid-column:1/-1;grid-row:3}
+}
+@media(max-width:520px){
+ #fileGrid.pc-list-view>.file-card>.file-card-top{grid-template-columns:auto 36px minmax(0,1fr) auto;gap:8px}
+ .upload-panel .modern-drop{grid-template-columns:minmax(0,1fr);grid-template-rows:auto;gap:12px;text-align:center}
+ .upload-panel .modern-drop>.drop-icon,.upload-panel .modern-drop>.drop-icon+div,.upload-panel .modern-drop>.upload-concurrency,.upload-panel .modern-drop>button{grid-column:1;grid-row:auto;width:100%}
+ .upload-panel .modern-drop>.drop-icon{margin:auto;width:48px;height:48px}
+ .upload-panel .modern-drop>.drop-icon+div p{margin-left:auto;margin-right:auto}
+}

@@ -1,0 +1,1 @@
+<?php require __DIR__."/../bootstrap.php";require_login();if($_SERVER["REQUEST_METHOD"]==="POST"){verify_csrf();db()->prepare("DELETE FROM tasks WHERE id=? AND user_id=?")->execute([(int)post("id"),current_user()["id"]]);}redirect("/tasks/"); ?>

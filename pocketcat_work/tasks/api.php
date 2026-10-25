@@ -1,0 +1,1 @@
+<?php require __DIR__."/../bootstrap.php";require_login();if($_SERVER["REQUEST_METHOD"]!=="POST")json_response(["ok"=>false],405);verify_csrf();json_response(["ok"=>true]); ?>

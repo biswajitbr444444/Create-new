@@ -1,0 +1,43 @@
+{
+  "completedAt": "2026-10-25T19:21:23.265Z",
+  "testCount": 8,
+  "results": [
+    {
+      "name": "Admin API-key save and provider test",
+      "detail": "HTTP 200 and expected mock reply"
+    },
+    {
+      "name": "Admin default inheritance and Chat/Agent/Text-to-Tasks",
+      "detail": "{\"inheritedCard\":\"Source\\n\\nAdministrator default\\n\\nStatus\\n\\nConfigured\\n\\nRegion\\n\\nus-east-1\\n\\nModel\\n\\nqa-admin-openai-model\",\"modes\":{\"chat\":\"Mock response for model qa-admin-openai-model.\",\"agent\":\"Mock response for model qa-admin-openai-model.\",\"task\":\"Verify the end-to-end mock task route\"}}"
+    },
+    {
+      "name": "Admin AWS IAM direct",
+      "detail": "{\"strictSigV4NegativeCase\":\"rejected HTTP 403\",\"modes\":{\"chat\":\"Local Bedrock SigV4 response for model anthropic.claude-qa-admin-v1.\",\"agent\":\"Local Bedrock SigV4 response for model anthropic.claude-qa-admin-v1.\",\"task\":\"Verify the end-to-end mock task route\"}}"
+    },
+    {
+      "name": "Admin generated Worker relay",
+      "detail": "{\"invalidToken\":\"rejected HTTP 401\",\"dynamicModel\":\"verified in upstream log\",\"modes\":{\"chat\":\"Mock response for model qa-admin-relay-switched-model.\",\"agent\":\"Mock response for model qa-admin-relay-switched-model.\",\"task\":\"Verify the end-to-end mock task route\"}}"
+    },
+    {
+      "name": "User API-key override",
+      "detail": "{\"effectiveCard\":\"Source\\n\\nYour settings override the administrator default\\n\\nStatus\\n\\nConfigured\\n\\nRegion\\n\\nus-east-1\\n\\nModel\\n\\nqa-user-openai-model\",\"modes\":{\"chat\":\"Mock response for model qa-user-openai-model.\",\"agent\":\"Mock response for model qa-user-openai-model.\",\"task\":\"Verify the end-to-end mock task route\"}}"
+    },
+    {
+      "name": "User AWS IAM direct",
+      "detail": "{\"strictSigV4\":\"cryptographically validated\",\"modes\":{\"chat\":\"Local Bedrock SigV4 response for model anthropic.claude-qa-user-v1.\",\"agent\":\"Local Bedrock SigV4 response for model anthropic.claude-qa-user-v1.\",\"task\":\"Verify the end-to-end mock task route\"}}"
+    },
+    {
+      "name": "User generated Worker relay",
+      "detail": "{\"invalidToken\":\"rejected HTTP 401\",\"dynamicModel\":\"verified in upstream log\",\"modes\":{\"chat\":\"Mock response for model qa-user-relay-switched-model.\",\"agent\":\"Mock response for model qa-user-relay-switched-model.\",\"task\":\"Verify the end-to-end mock task route\"}}"
+    },
+    {
+      "name": "Browser JavaScript and responsive layout",
+      "detail": "zero console/page errors; desktop 1440x900; mobile 390x844; no horizontal overflow"
+    }
+  ],
+  "browserErrors": [],
+  "viewports": {
+    "desktop": "1440x900",
+    "mobile": "390x844"
+  }
+}

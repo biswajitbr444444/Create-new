@@ -1,0 +1,5 @@
+<?php
+require __DIR__.'/../bootstrap.php';
+$rows=db()->query("SELECT s.id,s.version_id,v.configuration_json FROM visual_schedules s JOIN visual_versions v ON v.id=s.version_id WHERE s.status='pending' AND s.run_at<=NOW() ORDER BY s.id ASC LIMIT 10")->fetchAll();
+foreach($rows as $r){$pdo=db();$pdo->beginTransaction();try{$pdo->prepare("UPDATE visual_schedules SET status='published' WHERE id=? AND status='pending'")->execute([(int)$r['id']]);if($pdo->rowCount()!==1){$pdo->rollBack();continue;}$pdo->prepare("UPDATE visual_versions SET status='published',published_at=NOW() WHERE id=?")->execute([(int)$r['version_id']]);$pdo->prepare("UPDATE visual_versions SET status='rolled_back' WHERE tenant_id=0 AND status='published' AND id<>?")->execute([(int)$r['version_id']]);$pdo->commit();visual_audit('VISUAL_SCHEDULED_PUBLISHED',(int)$r['version_id']);}catch(Throwable $e){if($pdo->inTransaction())$pdo->rollBack();$pdo->prepare("UPDATE visual_schedules SET status='failed' WHERE id=?")->execute([(int)$r['id']]);}}
+echo "ok\n";

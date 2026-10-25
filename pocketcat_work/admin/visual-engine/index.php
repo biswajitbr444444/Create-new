@@ -1,0 +1,11 @@
+<?php
+require __DIR__.'/../../bootstrap.php';require_super_admin();
+$title='Visual Command Center';require __DIR__.'/../../includes/header.php';
+$active=visual_active();
+?>
+<div class="page-head"><div><span class="eyebrow">Super Admin</span><h1>Visual Command Center</h1><p>Stage, inspect, rebrand, review and publish the frontend without editing production source files.</p></div><div class="actions"><a class="btn" href="/?visual=1" target="_blank">Open Visual Canvas</a><a class="btn secondary" href="/admin/control-plane/">Control Plane</a></div></div>
+<div class="stats"><div class="card stat"><span>Live version</span><strong id="live-version">v<?=e((string)$active['version'])?></strong></div><div class="card stat"><span>Visual engine</span><strong><?=policy_flag('visual_editor',true)?'Enabled':'Disabled'?></strong></div><div class="card stat"><span>Custom JS</span><strong><?=policy_flag('visual_custom_js',false)?'Enabled':'Guarded'?></strong></div><div class="card stat"><span>Drafts</span><strong id="draft-state">Local</strong></div></div>
+<section class="card"><h2>Publishing safety</h2><div class="grid2"><div><p><b>Versioned configuration:</b> visual mutations are stored as immutable versions and activated by an atomic pointer change.</p><p><b>Conflict protection:</b> publishing requires the draft base version to match the current live version.</p><p><b>Rollback:</b> rollback creates a new version; history is never destroyed.</p></div><div><p><b>Zero source overwrite:</b> the visual engine writes presentation configuration rather than PHP templates.</p><p><b>Admin-only bundle:</b> visual tooling is loaded only for authorized Super Admin sessions.</p><p><b>BYOS boundary:</b> E2EE user workspaces remain opaque to this command plane.</p></div></div></section>
+<section class="card"><div class="page-head"><div><h2>Revision Ledger</h2><p class="muted">Latest 50 visual versions.</p></div><button class="btn secondary" id="refresh-versions">Refresh</button></div><div id="version-list">Loading…</div></section>
+<script>window.POCKETCAT_VISUAL_ADMIN={csrf:'<?=e(csrf_token())?>',api:'/api/admin/visual-engine/'};</script><script src="/assets/js/visual/visual-admin.js" defer></script>
+<?php require __DIR__.'/../../includes/footer.php'; ?>

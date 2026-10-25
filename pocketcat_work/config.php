@@ -1,0 +1,1 @@
+<?php return ['app_name'=>'PocketCat','app_url'=>'https://pocketcat.online','db'=>['host'=>getenv('DB_HOST')?:'','port'=>getenv('DB_PORT')?:'3306','name'=>getenv('DB_NAME')?:'','user'=>getenv('DB_USER')?:'','password'=>getenv('DB_PASSWORD')?:'']];

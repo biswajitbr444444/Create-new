@@ -1,0 +1,10 @@
+(function(){'use strict';const explicit={
+ app_name:'core-site',app_url:'core-site',bedrock_api_key:'ai-bedrock',aws_access_key_id:'ai-bedrock',aws_secret_access_key:'ai-bedrock',aws_session_token:'ai-bedrock',region:'ai-bedrock',model_id:'ai-bedrock',api_mode:'ai-bedrock',endpoint_url:'ai-bedrock',transport:'ai-bedrock',relay_url:'ai-bedrock',bedrock_relay_token:'ai-bedrock',
+ driver:'file-storage',endpoint:'file-storage',bucket:'file-storage',public_base:'file-storage',access_key:'file-storage',secret_key:'file-storage',free_file:'file-storage',free_storage:'file-storage',basic_file:'file-storage',basic_storage:'file-storage',premium_file:'file-storage',premium_storage:'file-storage',scanner_url:'file-storage',
+ label:'link-api'
+};
+const slug=s=>String(s||'').toLowerCase().replace(/[^a-z0-9]+/g,'_').replace(/^_|_$/g,'');
+function add(el,key){if(!key||el.querySelector(':scope > .pc-help'))return;const a=document.createElement('a');a.className='pc-help';a.href='/docs/?doc='+encodeURIComponent(key)+'#'+encodeURIComponent(key);a.target='_blank';a.rel='noopener';a.title='Open documentation';a.setAttribute('aria-label','Open documentation');a.innerHTML='<span aria-hidden="true">?</span><b>Docs</b>';const input=el.querySelector('input,select,textarea');if(input){let field=input;while(field.parentElement&&field.parentElement!==el)field=field.parentElement;el.insertBefore(a,field)}else el.appendChild(a)}
+function scan(root=document){root.querySelectorAll('label').forEach(l=>{let key=l.dataset.helpKey||explicit[l.querySelector('[name]')?.name]||explicit[l.querySelector('[id]')?.id];if(!key){const text=[...l.childNodes].filter(n=>n.nodeType===3).map(n=>n.textContent).join(' ').trim();const t=slug(text);if(t)key=({'website_name':'core-site','website_url':'core-site','token_label':'link-api','scanner_webhook_url':'file-storage'}[t]||'field-'+t);}if(key)add(l,key)});root.querySelectorAll('[data-help]').forEach(e=>add(e,e.dataset.help));}
+if(location.pathname!='/docs/'&&location.pathname!='/docs'){scan();new MutationObserver(()=>scan()).observe(document.body,{childList:true,subtree:true});window.PocketCatHelp={add,scan};}
+})();

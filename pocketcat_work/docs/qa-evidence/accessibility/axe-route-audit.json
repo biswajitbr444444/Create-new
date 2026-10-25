@@ -1,0 +1,640 @@
+{
+  "generatedAt": "2026-10-24T04:47:12.164Z",
+  "base": "http://127.0.0.1:8081",
+  "tool": "Playwright Chromium + axe-core",
+  "criteria": [
+    "WCAG 2.0 A/AA",
+    "WCAG 2.1 A/AA",
+    "WCAG 2.2 AA"
+  ],
+  "routeCount": 73,
+  "routeErrors": [],
+  "routesRedirectedToLogin": 51,
+  "violationsByImpact": {},
+  "routesWithViolations": 0,
+  "mobileRoutes": [
+    {
+      "route": "/",
+      "status": 200,
+      "finalPath": "/",
+      "violations": [],
+      "error": null,
+      "mobile": {
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "horizontalOverflow": false
+      },
+      "reducedMotion": {
+        "preference": true,
+        "animatedElements": 0
+      }
+    },
+    {
+      "route": "/login/",
+      "status": 200,
+      "finalPath": "/login/",
+      "violations": [],
+      "error": null,
+      "mobile": {
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "horizontalOverflow": false
+      }
+    },
+    {
+      "route": "/signup/",
+      "status": 200,
+      "finalPath": "/signup/",
+      "violations": [],
+      "error": null,
+      "mobile": {
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "horizontalOverflow": false
+      }
+    },
+    {
+      "route": "/pricing/",
+      "status": 200,
+      "finalPath": "/pricing/",
+      "violations": [],
+      "error": null,
+      "mobile": {
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "horizontalOverflow": false
+      }
+    },
+    {
+      "route": "/faq/",
+      "status": 200,
+      "finalPath": "/faq/",
+      "violations": [],
+      "error": null,
+      "mobile": {
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "horizontalOverflow": false
+      }
+    },
+    {
+      "route": "/contact/",
+      "status": 200,
+      "finalPath": "/contact/",
+      "violations": [],
+      "error": null,
+      "mobile": {
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "horizontalOverflow": false
+      }
+    }
+  ],
+  "routes": [
+    {
+      "route": "/",
+      "status": 200,
+      "finalPath": "/",
+      "violations": [],
+      "error": null,
+      "mobile": {
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "horizontalOverflow": false
+      },
+      "reducedMotion": {
+        "preference": true,
+        "animatedElements": 0
+      }
+    },
+    {
+      "route": "/admin/",
+      "status": 200,
+      "finalPath": "/login/",
+      "violations": [],
+      "error": null
+    },
+    {
+      "route": "/dashboard/",
+      "status": 200,
+      "finalPath": "/login/",
+      "violations": [],
+      "error": null
+    },
+    {
+      "route": "/files/",
+      "status": 200,
+      "finalPath": "/login/",
+      "violations": [],
+      "error": null
+    },
+    {
+      "route": "/files/trash/",
+      "status": 200,
+      "finalPath": "/login/",
+      "violations": [],
+      "error": null
+    },
+    {
+      "route": "/share-management/",
+      "status": 200,
+      "finalPath": "/login/",
+      "violations": [],
+      "error": null
+    },
+    {
+      "route": "/ai/",
+      "status": 200,
+      "finalPath": "/login/",
+      "violations": [],
+      "error": null
+    },
+    {
+      "route": "/posts/",
+      "status": 404,
+      "finalPath": "/posts/",
+      "violations": [],
+      "error": null
+    },
+    {
+      "route": "/pages/",
+      "status": 404,
+      "finalPath": "/pages/",
+      "violations": [],
+      "error": null
+    },
+    {
+      "route": "/settings/",
+      "status": 200,
+      "finalPath": "/login/",
+      "violations": [],
+      "error": null
+    },
+    {
+      "route": "/tasks/",
+      "status": 200,
+      "finalPath": "/login/",
+      "violations": [],
+      "error": null
+    },
+    {
+      "route": "/notes/",
+      "status": 200,
+      "finalPath": "/login/",
+      "violations": [],
+      "error": null
+    },
+    {
+      "route": "/projects/",
+      "status": 200,
+      "finalPath": "/login/",
+      "violations": [],
+      "error": null
+    },
+    {
+      "route": "/links/",
+      "status": 200,
+      "finalPath": "/login/",
+      "violations": [],
+      "error": null
+    },
+    {
+      "route": "/analytics/",
+      "status": 200,
+      "finalPath": "/login/",
+      "violations": [],
+      "error": null
+    },
+    {
+      "route": "/login/",
+      "status": 200,
+      "finalPath": "/login/",
+      "violations": [],
+      "error": null,
+      "mobile": {
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "horizontalOverflow": false
+      }
+    },
+    {
+      "route": "/signup/",
+      "status": 200,
+      "finalPath": "/signup/",
+      "violations": [],
+      "error": null,
+      "mobile": {
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "horizontalOverflow": false
+      }
+    },
+    {
+      "route": "/forgot-password/",
+      "status": 200,
+      "finalPath": "/forgot-password/",
+      "violations": [],
+      "error": null
+    },
+    {
+      "route": "/pricing/",
+      "status": 200,
+      "finalPath": "/pricing/",
+      "violations": [],
+      "error": null,
+      "mobile": {
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "horizontalOverflow": false
+      }
+    },
+    {
+      "route": "/faq/",
+      "status": 200,
+      "finalPath": "/faq/",
+      "violations": [],
+      "error": null,
+      "mobile": {
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "horizontalOverflow": false
+      }
+    },
+    {
+      "route": "/contact/",
+      "status": 200,
+      "finalPath": "/contact/",
+      "violations": [],
+      "error": null,
+      "mobile": {
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "horizontalOverflow": false
+      }
+    },
+    {
+      "route": "/product/",
+      "status": 200,
+      "finalPath": "/product/",
+      "violations": [],
+      "error": null
+    },
+    {
+      "route": "/features/",
+      "status": 200,
+      "finalPath": "/features/",
+      "violations": [],
+      "error": null
+    },
+    {
+      "route": "/how-it-works/",
+      "status": 200,
+      "finalPath": "/how-it-works/",
+      "violations": [],
+      "error": null
+    },
+    {
+      "route": "/about/",
+      "status": 200,
+      "finalPath": "/about/",
+      "violations": [],
+      "error": null
+    },
+    {
+      "route": "/code/",
+      "status": 200,
+      "finalPath": "/login/",
+      "violations": [],
+      "error": null
+    },
+    {
+      "route": "/docs/",
+      "status": 200,
+      "finalPath": "/login/",
+      "violations": [],
+      "error": null
+    },
+    {
+      "route": "/security/",
+      "status": 200,
+      "finalPath": "/security/",
+      "violations": [],
+      "error": null
+    },
+    {
+      "route": "/privacy/",
+      "status": 200,
+      "finalPath": "/privacy/",
+      "violations": [],
+      "error": null
+    },
+    {
+      "route": "/terms/",
+      "status": 200,
+      "finalPath": "/terms/",
+      "violations": [],
+      "error": null
+    },
+    {
+      "route": "/support/",
+      "status": 200,
+      "finalPath": "/login/",
+      "violations": [],
+      "error": null
+    },
+    {
+      "route": "/acceptable-use/",
+      "status": 200,
+      "finalPath": "/acceptable-use/",
+      "violations": [],
+      "error": null
+    },
+    {
+      "route": "/cookie-policy/",
+      "status": 200,
+      "finalPath": "/cookie-policy/",
+      "violations": [],
+      "error": null
+    },
+    {
+      "route": "/admin/version-details/",
+      "status": 200,
+      "finalPath": "/login/",
+      "violations": [],
+      "error": null
+    },
+    {
+      "route": "/admin/comments/",
+      "status": 200,
+      "finalPath": "/login/",
+      "violations": [],
+      "error": null
+    },
+    {
+      "route": "/media/",
+      "status": 200,
+      "finalPath": "/login/",
+      "violations": [],
+      "error": null
+    },
+    {
+      "route": "/search/",
+      "status": 200,
+      "finalPath": "/login/",
+      "violations": [],
+      "error": null
+    },
+    {
+      "route": "/settings/ai/",
+      "status": 200,
+      "finalPath": "/login/",
+      "violations": [],
+      "error": null
+    },
+    {
+      "route": "/billing/",
+      "status": 200,
+      "finalPath": "/login/",
+      "violations": [],
+      "error": null
+    },
+    {
+      "route": "/admin/ota-updater/",
+      "status": 200,
+      "finalPath": "/login/",
+      "violations": [],
+      "error": null
+    },
+    {
+      "route": "/admin/posts/",
+      "status": 200,
+      "finalPath": "/login/",
+      "violations": [],
+      "error": null
+    },
+    {
+      "route": "/admin/pages/",
+      "status": 200,
+      "finalPath": "/login/",
+      "violations": [],
+      "error": null
+    },
+    {
+      "route": "/admin/categories/",
+      "status": 200,
+      "finalPath": "/login/",
+      "violations": [],
+      "error": null
+    },
+    {
+      "route": "/admin/tags/",
+      "status": 200,
+      "finalPath": "/login/",
+      "violations": [],
+      "error": null
+    },
+    {
+      "route": "/admin/users/",
+      "status": 200,
+      "finalPath": "/login/",
+      "violations": [],
+      "error": null
+    },
+    {
+      "route": "/admin/database/",
+      "status": 200,
+      "finalPath": "/login/",
+      "violations": [],
+      "error": null
+    },
+    {
+      "route": "/admin/email/",
+      "status": 200,
+      "finalPath": "/login/",
+      "violations": [],
+      "error": null
+    },
+    {
+      "route": "/admin/ai/",
+      "status": 200,
+      "finalPath": "/login/",
+      "violations": [],
+      "error": null
+    },
+    {
+      "route": "/admin/ai-users/",
+      "status": 200,
+      "finalPath": "/login/",
+      "violations": [],
+      "error": null
+    },
+    {
+      "route": "/admin/settings/",
+      "status": 200,
+      "finalPath": "/login/",
+      "violations": [],
+      "error": null
+    },
+    {
+      "route": "/admin/geo-providers/",
+      "status": 200,
+      "finalPath": "/login/",
+      "violations": [],
+      "error": null
+    },
+    {
+      "route": "/admin/site-editor/",
+      "status": 200,
+      "finalPath": "/login/",
+      "violations": [],
+      "error": null
+    },
+    {
+      "route": "/admin/platform-activity/",
+      "status": 200,
+      "finalPath": "/login/",
+      "violations": [],
+      "error": null
+    },
+    {
+      "route": "/admin/analytics/",
+      "status": 200,
+      "finalPath": "/login/",
+      "violations": [],
+      "error": null
+    },
+    {
+      "route": "/admin/docs/",
+      "status": 200,
+      "finalPath": "/login/",
+      "violations": [],
+      "error": null
+    },
+    {
+      "route": "/admin/security/",
+      "status": 200,
+      "finalPath": "/login/",
+      "violations": [],
+      "error": null
+    },
+    {
+      "route": "/admin/files/",
+      "status": 200,
+      "finalPath": "/login/",
+      "violations": [],
+      "error": null
+    },
+    {
+      "route": "/admin/messages/",
+      "status": 200,
+      "finalPath": "/login/",
+      "violations": [],
+      "error": null
+    },
+    {
+      "route": "/admin/billing/",
+      "status": 200,
+      "finalPath": "/login/",
+      "violations": [],
+      "error": null
+    },
+    {
+      "route": "/admin/support/",
+      "status": 200,
+      "finalPath": "/login/",
+      "violations": [],
+      "error": null
+    },
+    {
+      "route": "/admin/control-plane/",
+      "status": 200,
+      "finalPath": "/login/",
+      "violations": [],
+      "error": null
+    },
+    {
+      "route": "/admin/visual-engine/",
+      "status": 200,
+      "finalPath": "/login/",
+      "violations": [],
+      "error": null
+    },
+    {
+      "route": "/admin/menus/",
+      "status": 200,
+      "finalPath": "/login/",
+      "violations": [],
+      "error": null
+    },
+    {
+      "route": "/admin/plans/",
+      "status": 200,
+      "finalPath": "/login/",
+      "violations": [],
+      "error": null
+    },
+    {
+      "route": "/admin/redirects/",
+      "status": 200,
+      "finalPath": "/login/",
+      "violations": [],
+      "error": null
+    },
+    {
+      "route": "/file/bdX1k6rTkybi/",
+      "status": 404,
+      "finalPath": "/file/bdX1k6rTkybi/",
+      "violations": [],
+      "error": null
+    },
+    {
+      "route": "/qr/9odErYm/",
+      "status": 200,
+      "finalPath": "/login/",
+      "violations": [],
+      "error": null
+    },
+    {
+      "route": "/r/[revoked-local-test-share]",
+      "status": 404,
+      "finalPath": "/r/[revoked-local-test-share]",
+      "violations": [],
+      "error": null
+    },
+    {
+      "route": "/ai/transform-tasks/",
+      "status": 200,
+      "finalPath": "/login/",
+      "violations": [],
+      "error": null
+    },
+    {
+      "route": "/r/[revoked-local-test-share]",
+      "status": 404,
+      "finalPath": "/r/[revoked-local-test-share]",
+      "violations": [],
+      "error": null
+    },
+    {
+      "route": "/qr/U6v1oxY/",
+      "status": 200,
+      "finalPath": "/login/",
+      "violations": [],
+      "error": null
+    },
+    {
+      "route": "/r/[revoked-local-test-share]",
+      "status": 404,
+      "finalPath": "/r/[revoked-local-test-share]",
+      "violations": [],
+      "error": null
+    },
+    {
+      "route": "/qr/KNfLOqV/",
+      "status": 200,
+      "finalPath": "/login/",
+      "violations": [],
+      "error": null
+    }
+  ]
+}

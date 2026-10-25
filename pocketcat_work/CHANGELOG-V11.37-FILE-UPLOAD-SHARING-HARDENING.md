@@ -1,0 +1,11 @@
+# V11.37
+- Fixed generic 500 upload failures with structured JSON error handling and fatal-error fallback.
+- Added upload environment diagnostics and clearer PHP upload-limit/permission messages.
+- Hardened resumable local chunks with per-user/session locks and incomplete-file verification.
+- Added `webkitdirectory` folder upload support and preserved relative directory paths.
+- Fixed S3 multipart presigning so `partNumber` and `uploadId` are included in the signature.
+- Added owner-scoped batch ZIP downloads and public share bundles.
+- Added hashed share passwords, expiry, max-download limits and view-only mode.
+- Added public batch share landing page with image/PDF/audio/video previews.
+- Added email share notification endpoint using PocketCat SMTP settings.
+- Added file version/share schema primitives and feature governance flags.
